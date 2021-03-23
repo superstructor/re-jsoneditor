@@ -9,7 +9,7 @@
 
 image:https://img.shields.io/clojars/v/superstructor/re-jsoneditor?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/superstructor/re-jsoneditor"]
 image:https://img.shields.io/github/issues-raw/superstructor/re-jsoneditor?style=for-the-badge&logo=github["GitHub issues", link="https://github.com/superstructor/re-jsoneditor/issues"]
-image:https://img.shields.io/github/license/superstructor/re-jsoneditor?style=for-the-badge["License", link="https://github.com/superstructor/re-jsoneditor/blob/master/LICENSE"]
+image:https://img.shields.io/github/license/superstructor/re-jsoneditor.svg?style=for-the-badge["License", link="https://github.com/superstructor/re-jsoneditor/blob/master/LICENSE"]
 
 = Reagent wrapper for Jos de Jong's JSON Editor
 
