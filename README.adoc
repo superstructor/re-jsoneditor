@@ -46,7 +46,7 @@ Add JSON Editor stylesheet to your `index.html` or equivalent; e.g.:
 
 == Features
 
-See the demo.
+See link:https://superstructor.github.io/re-jsoneditor/[the demo].
 
 == Outstanding Features
 
