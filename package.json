@@ -1,0 +1,12 @@
+{
+  "name": "re-jsoneditor",
+  "dependencies": {
+    "ace-builds": "1.4.12",
+    "jsoneditor": "9.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.11.24"
+  }
+}

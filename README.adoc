@@ -1,0 +1,83 @@
+:source-highlighter: coderay
+:source-language: clojure
+:toc:
+:toc-placement: preamble
+:sectlinks:
+:sectanchors:
+:toc:
+:icons: font
+
+image:https://img.shields.io/clojars/v/superstructor/re-jsoneditor?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/superstructor/re-jsoneditor"]
+image:https://img.shields.io/github/issues-raw/superstructor/re-jsoneditor?style=for-the-badge&logo=github["GitHub issues", link="https://github.com/superstructor/re-jsoneditor/issues"]
+image:https://img.shields.io/github/license/superstructor/re-jsoneditor?style=for-the-badge["License", link="https://github.com/superstructor/re-jsoneditor/blob/master/LICENSE"]
+
+= Reagent wrapper for Jos de Jong's JSON Editor
+
+A sophisticated Reagent wrapper around the link:https://github.com/josdejong/jsoneditor[`jsoneditor`] library.
+
+== Quick Start
+
+=== Step 1. Add Dependency
+
+Add the following project dependency:
+image:https://img.shields.io/clojars/v/superstructor/re-jsoneditor?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/superstructor/re-jsoneditor"]
+
+Requires that you have reagent as a dependency of your project: image:https://img.shields.io/clojars/v/reagent?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/reagent"]
+
+If you use shadow-cljs, the `jsoneditor` npm library dependency will be pulled automatically via `src/deps.cljs` `:npm-deps`.
+
+If you use another build system, it is not currently supported so switch to shadow-cljs.
+
+=== Step 2. Add Styles
+
+Add JSON Editor stylesheet to your `index.html` or equivalent; e.g.:
+
+    https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.2.0/jsoneditor.css
+
+=== Step 3. Use the Component
+
+    (ns my-app
+      (:require
+        [re-jsoneditor.core :refer [jsoneditor]]))
+
+    (defn panel
+      []
+      [jsoneditor ...])
+
+== Features
+
+See the demo.
+
+== Outstanding Features
+
+- ace and ajv customisation
+- port JSON editor stylesheet to inline Garden
+- `:schema` and `:schema-refs` arguments
+- `:templates` argument
+- `:auto-complete` argument
+- `:on-text-selection-change` argument
+- `:on-selection-change` argument
+- `:on-event` argument
+- `:on-focus` argument
+- `:on-blur` argument
+- `:color-picker?` argument
+- `:timestamp-tag?` argument
+- `:timestamp-format` argument
+- `:language` argument
+- `:languages` argument
+- `:modal-anchor` argument
+- `:popup-anchor` argument
+- `:sort?` argument
+- `:transform?` argument
+- `:max-visible-children` argument
+- `:create-query`, `:execute-query` and `:query-description` arguments
+- `:theme` argument and auto-loading of ace themes etc.
+
+== License
+
+The Apache License Version 2.0
+
+Copyright &copy; 2018-2021 Isaac Johnston
+
+Portions based on link:https://github.com/josdejong/jsoneditor[JSON Editor]
+Copyright &copy; Jos de Jong under the terms of the Apache License Version 2.0
