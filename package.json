@@ -1,8 +1,7 @@
 {
-  "name": "re-jsoneditor",
+  "name": "superstructor.re-jsoneditor",
   "dependencies": {
-    "ace-builds": "1.4.12",
-    "jsoneditor": "9.2.0",
+    "jsoneditor": "9.3.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   },

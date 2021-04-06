@@ -187,7 +187,7 @@
   height: 24px;
   padding: 0;
   margin: 0 4px 0 0;
-  background: url("/images/jsoneditor-icons-9.2.0.svg") 0 -72px;
+  background: url("/images/jsoneditor-icons-9.3.0.svg") 0 -72px;
 }
 
 .jsoneditor-contextmenu .jsoneditor-icon {
@@ -199,7 +199,7 @@
   border: none;
   padding: 0;
   margin: 0;
-  background-image: url("/images/jsoneditor-icons-9.2.0.svg");
+  background-image: url("/images/jsoneditor-icons-9.3.0.svg");
 }
 
 .jsoneditor-contextmenu .jsoneditor-text {
@@ -714,7 +714,7 @@ div.jsoneditor-tree button.jsoneditor-button {
   margin: 0;
   border: none;
   cursor: pointer;
-  background: transparent url("/images/jsoneditor-icons-9.2.0.svg");
+  background: transparent url("/images/jsoneditor-icons-9.3.0.svg");
 }
 
 div.jsoneditor-tree button.jsoneditor-button:focus {
@@ -740,7 +740,7 @@ div.jsoneditor-tree button.jsoneditor-invisible {
 }
 
 div.jsoneditor-tree button.jsoneditor-dragarea {
-  background: url("/images/jsoneditor-icons-9.2.0.svg") -72px -72px;
+  background: url("/images/jsoneditor-icons-9.3.0.svg") -72px -72px;
   cursor: move;
 }
 
@@ -794,7 +794,7 @@ div.jsoneditor-tree .jsoneditor-button.jsoneditor-schema-error {
   height: 24px;
   padding: 0;
   margin: 0 4px 0 0;
-  background: url("/images/jsoneditor-icons-9.2.0.svg") -168px -48px;
+  background: url("/images/jsoneditor-icons-9.3.0.svg") -168px -48px;
 }
 
 div.jsoneditor-outer {
@@ -1149,11 +1149,11 @@ pre.jsoneditor-preview,
 }
 
 .jsoneditor-text-errors tr .jsoneditor-schema-error {
-  background: url("/images/jsoneditor-icons-9.2.0.svg") -168px -48px;
+  background: url("/images/jsoneditor-icons-9.3.0.svg") -168px -48px;
 }
 
 .jsoneditor-text-errors tr.parse-error .jsoneditor-schema-error {
-  background: url("/images/jsoneditor-icons-9.2.0.svg") -25px 0px;
+  background: url("/images/jsoneditor-icons-9.3.0.svg") -25px 0px;
 }
 
 .jsoneditor-anchor {
@@ -1215,7 +1215,7 @@ pre.jsoneditor-preview,
   padding: 0;
   border-radius: 2px;
   border: 1px solid transparent;
-  background: transparent url("/images/jsoneditor-icons-9.2.0.svg");
+  background: transparent url("/images/jsoneditor-icons-9.3.0.svg");
   color: #ffffff;
   opacity: 0.8;
   font-family: arial, sans-serif;
@@ -1374,7 +1374,7 @@ pre.jsoneditor-preview,
   padding: 0;
   margin: 0;
   border: none;
-  background: url("/images/jsoneditor-icons-9.2.0.svg");
+  background: url("/images/jsoneditor-icons-9.3.0.svg");
   vertical-align: top;
 }
 
@@ -1446,7 +1446,7 @@ pre.jsoneditor-preview,
   height: 24px;
   padding: 0;
   margin-top: 1px;
-  background: url("/images/jsoneditor-icons-9.2.0.svg") -168px -48px;
+  background: url("/images/jsoneditor-icons-9.3.0.svg") -168px -48px;
   cursor: pointer;
 }
 
@@ -1462,7 +1462,7 @@ pre.jsoneditor-preview,
   height: 24px;
   padding: 0;
   margin: 1px;
-  background: url("/images/jsoneditor-icons-9.2.0.svg") -25px 0px;
+  background: url("/images/jsoneditor-icons-9.3.0.svg") -25px 0px;
 }
 
 .jsoneditor-statusbar .jsoneditor-array-info a {
