@@ -11,7 +11,7 @@
                  [thheller/shadow-cljs      "2.11.24"  :scope "provided"]
                  [reagent                   "1.0.0"    :scope "provided"]
                  [re-com                    "2.13.2"   :scope "provided"]
-                 [binaryage/oops            "0.7.0"]]
+                 [binaryage/oops            "0.7.1"]]
 
 
   :plugins [[day8/lein-git-inject "0.0.14"]
