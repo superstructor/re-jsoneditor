@@ -2,6 +2,12 @@
 
 #### Changed
 
+- Upgrade jsoneditor to 9.4.0
+
+## 0.0.3 (2021-04-11)
+
+#### Changed
+
 - Upgrade jsoneditor to 9.3.1
 
 ## 0.0.2 (2021-04-06)

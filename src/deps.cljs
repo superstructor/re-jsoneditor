@@ -1,2 +1,2 @@
-{:npm-deps     {"jsoneditor"  "9.3.1"}
- :npm-dev-deps {"shadow-cljs" "2.12.4"}}
+{:npm-deps     {"jsoneditor"  "9.4.0"}
+ :npm-dev-deps {"shadow-cljs" "2.12.5"}}
