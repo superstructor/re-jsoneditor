@@ -20,9 +20,12 @@ A sophisticated Reagent wrapper around the link:https://github.com/josdejong/jso
 === Step 1. Add Dependency
 
 Add the following project dependency:
+
 image:https://img.shields.io/clojars/v/superstructor/re-jsoneditor?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/superstructor/re-jsoneditor"]
 
-Requires that you have reagent as a dependency of your project: image:https://img.shields.io/clojars/v/reagent?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/reagent"]
+Requires that you have `reagent` and `re-com` as dependencies of your project: 
+
+image:https://img.shields.io/clojars/v/reagent?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/reagent"] image:https://img.shields.io/clojars/v/re-com?style=for-the-badge&logo=clojure&logoColor=fff["Clojars Project", link="https://clojars.org/re-com"]
 
 If you use shadow-cljs, the `jsoneditor` npm library dependency will be pulled automatically via `src/deps.cljs` `:npm-deps`.
 
