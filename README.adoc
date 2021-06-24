@@ -32,7 +32,7 @@ If you use another build system, it is not currently supported so switch to shad
 
 Add JSON Editor stylesheet to your `index.html` or equivalent; e.g.:
 
-    https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.3.0/jsoneditor.css
+    https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.5.0/jsoneditor.css
 
 === Step 3. Use the Component
 
