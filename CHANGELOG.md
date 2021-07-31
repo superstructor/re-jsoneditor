@@ -1,5 +1,9 @@
 ## Unreleased
 
+#### Changed
+
+- Upgrade jsoneditor to 9.5.3
+
 ## 0.0.5 (2021-06-24)
 
 #### Changed
